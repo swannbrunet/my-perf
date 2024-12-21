@@ -1,0 +1,18 @@
+.container {
+    padding: 15px;
+    padding-bottom: 70px;
+}
+
+.typeZone {
+    display: flex;
+    :nth-child(n) {
+        margin: 1em;
+    }
+}
+
+.exerciceSaved {
+    background-color: var(--secondary-color);
+    margin: 1em;
+    padding: 1em;
+    border-radius: 100px;
+}

@@ -1,0 +1,1 @@
+export const EXERCISES_ITEM = 'EXERCISES'

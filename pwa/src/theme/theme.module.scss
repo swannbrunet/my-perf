@@ -1,0 +1,49 @@
+
+:root {
+    --primary-color: #E0A606;
+    --primary-color-50: #a87c04;
+    --secondary-color: #022450;
+    --background-color: #010A15;
+    --box-color: #022450;
+    --text-color: #FFFFFF;
+}
+
+body {
+    color: var(--text-color);
+    background: var(--background-color); 
+    font-family: 'Helvetica';
+}
+
+input {
+    font-family: 'Helvetica';
+}
+
+select {
+    font-family: 'Helvetica';
+}
+
+input {
+    background: none;
+    border: solid 2px var(--secondary-color);
+    color: var(--text-color);
+    border-radius: 100px;
+    padding-left: 1em;
+    flex: 1;
+    height: 40px;
+    width: 100%;
+    font-size: large;
+    font-weight: bold;
+}
+
+button {
+    background-color: var(--primary-color);
+    border: none;
+    font-family: 'Helvetica';
+    border-radius: 100px;
+    color: var(--text-color);
+    font-weight: bold;
+
+    &:hover {
+        background-color: var(--primary-color-50);
+    }
+}
